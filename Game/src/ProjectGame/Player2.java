@@ -10,7 +10,6 @@ public class Player2 extends Player1 {
 	}
 	@Override
 	public void damageGun1() {
-		// TODO Auto-generated method stub
 		if(armour) {
 			this.health -=20;
 			if(this.health <=0) this.health=0;
@@ -27,7 +26,6 @@ public class Player2 extends Player1 {
 	}
 	@Override
 	public void damageByGun2() {
-		// TODO Auto-generated method stub
 		if(armour) {
 			this.health -=40;
 			if(this.health <=0) this.health=0;
@@ -44,7 +42,6 @@ public class Player2 extends Player1 {
 	}
 	@Override
 	public void heal() {
-		// TODO Auto-generated method stub
 		super.heal();
 	}
 	
